@@ -1,0 +1,8 @@
+name: Article Custom Block 
+description: A simple module to display article nodes.
+type: module
+core: 8.x
+package: Custom
+dependencies:
+- node
+- block

@@ -1,0 +1,4 @@
+services:
+ article.data_handler:
+   class: Drupal\article\Service\LoadData
+   arguments: ['@database']

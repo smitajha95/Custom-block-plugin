@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+ 
+function article_theme() {
+  return [
+    'article' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}
+

@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Twig template to render content
+ */
+#}
+
+ <ul>
+  {% for item in data %}
+    <li><a href="{{ path('entity.node.canonical', {'node':  item.nid}) }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul> 
